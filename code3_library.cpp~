@@ -1,0 +1,5 @@
+void summation(int a ,int b){
+  int c;
+  c=a+b;
+  cout << "a + b ="<<c<<"\n";
+}

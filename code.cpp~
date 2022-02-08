@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+
+//global variable
+int i, j;
+const int nx = 31;
+const int ny = 31;
+double phi[nx][ny];
+
+
+void initialize(){ // void = not return variable
+  for(int i=0 ; i<=nx-1;i++){
+    for(int j = 0; j<=ny-1;j++){
+      phi[i][j]=0.0;
+    }
+  }
+}
+
+void visualize(){
+  for(int i=0 ; i<=nx-1;i++){
+    for(int j = 0; j<=ny-1;j++){
+      cout<<phi[i][j]<<" ";
+    }
+    cout << "\n";
+  }
+  
+}
+int main(){
+  
+  initialize();
+  visualize();
+
+}
