@@ -1,7 +1,8 @@
 #include <iostream>
+#define PI 3.1415926
 using namespace std;
 int main(){
 
-  cout << "Hello class\n";
+  std::cout << "Hello 496 class\n";
   
 }

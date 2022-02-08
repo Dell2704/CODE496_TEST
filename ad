@@ -1,0 +1,1017 @@
+[1mdiff --git a/test b/test[m
+[1mdeleted file mode 100755[m
+[1mindex b1e582f..0000000[m
+Binary files a/test and /dev/null differ
+[1mdiff --git a/test.cpp b/test.cpp[m
+[1mdeleted file mode 100644[m
+[1mindex cc2b00f..0000000[m
+[1m--- a/test.cpp[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-#include <iostream>[m
+[31m-#define PI 3.1415926[m
+[31m-using namespace std;[m
+[31m-int main(){[m
+[31m-[m
+[31m-  std::cout << "Hello class\n";[m
+[31m-  [m
+[31m-}[m
+[1mdiff --git a/test.cpp~ b/test.cpp~[m
+[1mdeleted file mode 100644[m
+[1mindex b70c79e..0000000[m
+[1m--- a/test.cpp~[m
+[1m+++ /dev/null[m
+[36m@@ -1,7 +0,0 @@[m
+[31m-#include <iostream>[m
+[31m-using namespace std;[m
+[31m-int main(){[m
+[31m-[m
+[31m-  cout << "Hello class\n";[m
+[31m-  [m
+[31m-}[m
+[1mdiff --git a/test.i b/test.i[m
+[1mdeleted file mode 100644[m
+[1mindex ebdaf6c..0000000[m
+[1m--- a/test.i[m
+[1m+++ /dev/null[m
+[36m@@ -1,28631 +0,0 @@[m
+[31m-# 1 "test.cpp"[m
+[31m-# 1 "<built-in>"[m
+[31m-# 1 "<command-line>"[m
+[31m-# 1 "/usr/include/stdc-predef.h" 1 3 4[m
+[31m-# 1 "<command-line>" 2[m
+[31m-# 1 "test.cpp"[m
+[31m-# 1 "/usr/include/c++/9/iostream" 1 3[m
+[31m-# 36 "/usr/include/c++/9/iostream" 3[m
+[31m-       [m
+[31m-# 37 "/usr/include/c++/9/iostream" 3[m
+[31m-[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 1 3[m
+[31m-# 252 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 3[m
+[31m-[m
+[31m-# 252 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 3[m
+[31m-namespace std[m
+[31m-{[m
+[31m-  typedef long unsigned int size_t;[m
+[31m-  typedef long int ptrdiff_t;[m
+[31m-[m
+[31m-[m
+[31m-  typedef decltype(nullptr) nullptr_t;[m
+[31m-[m
+[31m-}[m
+[31m-# 274 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 3[m
+[31m-namespace std[m
+[31m-{[m
+[31m-  inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }[m
+[31m-}[m
+[31m-namespace __gnu_cxx[m
+[31m-{[m
+[31m-  inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }[m
+[31m-}[m
+[31m-# 524 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 3[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h" 1 3[m
+[31m-# 39 "/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h" 3[m
+[31m-# 1 "/usr/include/features.h" 1 3 4[m
+[31m-# 461 "/usr/include/features.h" 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4[m
+[31m-# 452 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4[m
+[31m-# 453 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4[m
+[31m-# 454 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4[m
+[31m-# 462 "/usr/include/features.h" 2 3 4[m
+[31m-# 485 "/usr/include/features.h" 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4[m
+[31m-# 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4[m
+[31m-# 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4[m
+[31m-# 486 "/usr/include/features.h" 2 3 4[m
+[31m-# 40 "/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h" 2 3[m
+[31m-# 525 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 2 3[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h" 1 3[m
+[31m-# 528 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 2 3[m
+[31m-# 39 "/usr/include/c++/9/iostream" 2 3[m
+[31m-# 1 "/usr/include/c++/9/ostream" 1 3[m
+[31m-# 36 "/usr/include/c++/9/ostream" 3[m
+[31m-       [m
+[31m-# 37 "/usr/include/c++/9/ostream" 3[m
+[31m-[m
+[31m-# 1 "/usr/include/c++/9/ios" 1 3[m
+[31m-# 36 "/usr/include/c++/9/ios" 3[m
+[31m-       [m
+[31m-# 37 "/usr/include/c++/9/ios" 3[m
+[31m-[m
+[31m-# 1 "/usr/include/c++/9/iosfwd" 1 3[m
+[31m-# 36 "/usr/include/c++/9/iosfwd" 3[m
+[31m-       [m
+[31m-# 37 "/usr/include/c++/9/iosfwd" 3[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/include/c++/9/bits/stringfwd.h" 1 3[m
+[31m-# 37 "/usr/include/c++/9/bits/stringfwd.h" 3[m
+[31m-       [m
+[31m-# 38 "/usr/include/c++/9/bits/stringfwd.h" 3[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/include/c++/9/bits/memoryfwd.h" 1 3[m
+[31m-# 46 "/usr/include/c++/9/bits/memoryfwd.h" 3[m
+[31m-       [m
+[31m-# 47 "/usr/include/c++/9/bits/memoryfwd.h" 3[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-namespace std __attribute__ ((__visibility__ ("default")))[m
+[31m-{[m
+[31m-[m
+[31m-# 63 "/usr/include/c++/9/bits/memoryfwd.h" 3[m
+[31m-  template<typename>[m
+[31m-    class allocator;[m
+[31m-[m
+[31m-  template<>[m
+[31m-    class allocator<void>;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-  template<typename, typename>[m
+[31m-    struct uses_allocator;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-}[m
+[31m-# 41 "/usr/include/c++/9/bits/stringfwd.h" 2 3[m
+[31m-[m
+[31m-namespace std __attribute__ ((__visibility__ ("default")))[m
+[31m-{[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-  template<class _CharT>[m
+[31m-    struct char_traits;[m
+[31m-[m
+[31m-  template<> struct char_traits<char>;[m
+[31m-[m
+[31m-[m
+[31m-  template<> struct char_traits<wchar_t>;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-  template<> struct char_traits<char16_t>;[m
+[31m-  template<> struct char_traits<char32_t>;[m
+[31m-[m
+[31m-[m
+[31m-namespace __cxx11 {[m
+[31m-[m
+[31m-  template<typename _CharT, typename _Traits = char_traits<_CharT>,[m
+[31m-           typename _Alloc = allocator<_CharT> >[m
+[31m-    class basic_string;[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-  typedef basic_string<char> string;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-  typedef basic_string<wchar_t> wstring;[m
+[31m-# 93 "/usr/include/c++/9/bits/stringfwd.h" 3[m
+[31m-  typedef basic_string<char16_t> u16string;[m
+[31m-[m
+[31m-[m
+[31m-  typedef basic_string<char32_t> u32string;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-}[m
+[31m-# 40 "/usr/include/c++/9/iosfwd" 2 3[m
+[31m-# 1 "/usr/include/c++/9/bits/postypes.h" 1 3[m
+[31m-# 38 "/usr/include/c++/9/bits/postypes.h" 3[m
+[31m-       [m
+[31m-# 39 "/usr/include/c++/9/bits/postypes.h" 3[m
+[31m-[m
+[31m-# 1 "/usr/include/c++/9/cwchar" 1 3[m
+[31m-# 39 "/usr/include/c++/9/cwchar" 3[m
+[31m-       [m
+[31m-# 40 "/usr/include/c++/9/cwchar" 3[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/include/wchar.h" 1 3 4[m
+[31m-# 27 "/usr/include/wchar.h" 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4[m
+[31m-# 28 "/usr/include/wchar.h" 2 3 4[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 1 3 4[m
+[31m-# 75 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4[m
+[31m-typedef _Complex float __cfloat128 __attribute__ ((__mode__ (__TC__)));[m
+[31m-# 87 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4[m
+[31m-typedef __float128 _Float128;[m
+[31m-# 120 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 1 3 4[m
+[31m-# 24 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4[m
+[31m-# 25 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 2 3 4[m
+[31m-# 214 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4[m
+[31m-typedef float _Float32;[m
+[31m-# 251 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4[m
+[31m-typedef double _Float64;[m
+[31m-# 268 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4[m
+[31m-typedef double _Float32x;[m
+[31m-# 285 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4[m
+[31m-typedef long double _Float64x;[m
+[31m-# 121 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 2 3 4[m
+[31m-# 31 "/usr/include/wchar.h" 2 3 4[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 1 3 4[m
+[31m-# 209 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 3 4[m
+[31m-typedef long unsigned int size_t;[m
+[31m-# 36 "/usr/include/wchar.h" 2 3 4[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h" 1 3 4[m
+[31m-# 40 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h" 3 4[m
+[31m-typedef __builtin_va_list __gnuc_va_list;[m
+[31m-# 39 "/usr/include/wchar.h" 2 3 4[m
+[31m-[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/wchar.h" 1 3 4[m
+[31m-# 41 "/usr/include/wchar.h" 2 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/types/wint_t.h" 1 3 4[m
+[31m-# 20 "/usr/include/x86_64-linux-gnu/bits/types/wint_t.h" 3 4[m
+[31m-typedef unsigned int wint_t;[m
+[31m-# 42 "/usr/include/wchar.h" 2 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h" 1 3 4[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 1 3 4[m
+[31m-# 13 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 3 4[m
+[31m-typedef struct[m
+[31m-{[m
+[31m-  int __count;[m
+[31m-  union[m
+[31m-  {[m
+[31m-    unsigned int __wch;[m
+[31m-    char __wchb[4];[m
+[31m-  } __value;[m
+[31m-} __mbstate_t;[m
+[31m-# 5 "/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h" 2 3 4[m
+[31m-[m
+[31m-typedef __mbstate_t mbstate_t;[m
+[31m-# 43 "/usr/include/wchar.h" 2 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__FILE.h" 1 3 4[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-struct _IO_FILE;[m
+[31m-typedef struct _IO_FILE __FILE;[m
+[31m-# 44 "/usr/include/wchar.h" 2 3 4[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/types/FILE.h" 1 3 4[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-struct _IO_FILE;[m
+[31m-[m
+[31m-[m
+[31m-typedef struct _IO_FILE FILE;[m
+[31m-# 47 "/usr/include/wchar.h" 2 3 4[m
+[31m-[m
+[31m-[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 1 3 4[m
+[31m-# 22 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 3 4[m
+[31m-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 1 3 4[m
+[31m-# 28 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 3 4[m
+[31m-struct __locale_struct[m
+[31m-{[m
+[31m-[m
+[31m-  struct __locale_data *__locales[13];[m
+[31m-[m
+[31m-[m
+[31m-  const unsigned short int *__ctype_b;[m
+[31m-  const int *__ctype_tolower;[m
+[31m-  const int *__ctype_toupper;[m
+[31m-[m
+[31m-[m
+[31m-  const char *__names[13];[m
+[31m-};[m
+[31m-[m
+[31m-typedef struct __locale_struct *__locale_t;[m
+[31m-# 23 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 2 3 4[m
+[31m-[m
+[31m-typedef __locale_t locale_t;[m
+[31m-# 50 "/usr/include/wchar.h" 2 3 4[m
+[31m-# 79 "/usr/include/wchar.h" 3 4[m
+[31m-extern "C" {[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-struct tm;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wcscpy (wchar_t *__restrict __dest,[m
+[31m-   const wchar_t *__restrict __src)[m
+[31m-     throw () __attribute__ ((__nonnull__ (1, 2)));[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wcsncpy (wchar_t *__restrict __dest,[m
+[31m-    const wchar_t *__restrict __src, size_t __n)[m
+[31m-     throw () __attribute__ ((__nonnull__ (1, 2)));[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wcscat (wchar_t *__restrict __dest,[m
+[31m-   const wchar_t *__restrict __src)[m
+[31m-     throw () __attribute__ ((__nonnull__ (1, 2)));[m
+[31m-[m
+[31m-extern wchar_t *wcsncat (wchar_t *__restrict __dest,[m
+[31m-    const wchar_t *__restrict __src, size_t __n)[m
+[31m-     throw () __attribute__ ((__nonnull__ (1, 2)));[m
+[31m-[m
+[31m-[m
+[31m-extern int wcscmp (const wchar_t *__s1, const wchar_t *__s2)[m
+[31m-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));[m
+[31m-[m
+[31m-extern int wcsncmp (const wchar_t *__s1, const wchar_t *__s2, size_t __n)[m
+[31m-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wcscasecmp (const wchar_t *__s1, const wchar_t *__s2) throw ();[m
+[31m-[m
+[31m-[m
+[31m-extern int wcsncasecmp (const wchar_t *__s1, const wchar_t *__s2,[m
+[31m-   size_t __n) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wcscasecmp_l (const wchar_t *__s1, const wchar_t *__s2,[m
+[31m-    locale_t __loc) throw ();[m
+[31m-[m
+[31m-extern int wcsncasecmp_l (const wchar_t *__s1, const wchar_t *__s2,[m
+[31m-     size_t __n, locale_t __loc) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wcscoll (const wchar_t *__s1, const wchar_t *__s2) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcsxfrm (wchar_t *__restrict __s1,[m
+[31m-         const wchar_t *__restrict __s2, size_t __n) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wcscoll_l (const wchar_t *__s1, const wchar_t *__s2,[m
+[31m-        locale_t __loc) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcsxfrm_l (wchar_t *__s1, const wchar_t *__s2,[m
+[31m-    size_t __n, locale_t __loc) throw ();[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wcsdup (const wchar_t *__s) throw () __attribute__ ((__malloc__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern "C++" wchar_t *wcschr (wchar_t *__wcs, wchar_t __wc)[m
+[31m-     throw () __asm ("wcschr") __attribute__ ((__pure__));[m
+[31m-extern "C++" const wchar_t *wcschr (const wchar_t *__wcs, wchar_t __wc)[m
+[31m-     throw () __asm ("wcschr") __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern "C++" wchar_t *wcsrchr (wchar_t *__wcs, wchar_t __wc)[m
+[31m-     throw () __asm ("wcsrchr") __attribute__ ((__pure__));[m
+[31m-extern "C++" const wchar_t *wcsrchr (const wchar_t *__wcs, wchar_t __wc)[m
+[31m-     throw () __asm ("wcsrchr") __attribute__ ((__pure__));[m
+[31m-# 181 "/usr/include/wchar.h" 3 4[m
+[31m-extern wchar_t *wcschrnul (const wchar_t *__s, wchar_t __wc)[m
+[31m-     throw () __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcscspn (const wchar_t *__wcs, const wchar_t *__reject)[m
+[31m-     throw () __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcsspn (const wchar_t *__wcs, const wchar_t *__accept)[m
+[31m-     throw () __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-extern "C++" wchar_t *wcspbrk (wchar_t *__wcs, const wchar_t *__accept)[m
+[31m-     throw () __asm ("wcspbrk") __attribute__ ((__pure__));[m
+[31m-extern "C++" const wchar_t *wcspbrk (const wchar_t *__wcs,[m
+[31m-         const wchar_t *__accept)[m
+[31m-     throw () __asm ("wcspbrk") __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern "C++" wchar_t *wcsstr (wchar_t *__haystack, const wchar_t *__needle)[m
+[31m-     throw () __asm ("wcsstr") __attribute__ ((__pure__));[m
+[31m-extern "C++" const wchar_t *wcsstr (const wchar_t *__haystack,[m
+[31m-        const wchar_t *__needle)[m
+[31m-     throw () __asm ("wcsstr") __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wcstok (wchar_t *__restrict __s,[m
+[31m-   const wchar_t *__restrict __delim,[m
+[31m-   wchar_t **__restrict __ptr) throw ();[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcslen (const wchar_t *__s) throw () __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern "C++" wchar_t *wcswcs (wchar_t *__haystack, const wchar_t *__needle)[m
+[31m-     throw () __asm ("wcswcs") __attribute__ ((__pure__));[m
+[31m-extern "C++" const wchar_t *wcswcs (const wchar_t *__haystack,[m
+[31m-        const wchar_t *__needle)[m
+[31m-     throw () __asm ("wcswcs") __attribute__ ((__pure__));[m
+[31m-# 240 "/usr/include/wchar.h" 3 4[m
+[31m-extern size_t wcsnlen (const wchar_t *__s, size_t __maxlen)[m
+[31m-     throw () __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern "C++" wchar_t *wmemchr (wchar_t *__s, wchar_t __c, size_t __n)[m
+[31m-     throw () __asm ("wmemchr") __attribute__ ((__pure__));[m
+[31m-extern "C++" const wchar_t *wmemchr (const wchar_t *__s, wchar_t __c,[m
+[31m-         size_t __n)[m
+[31m-     throw () __asm ("wmemchr") __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wmemcmp (const wchar_t *__s1, const wchar_t *__s2, size_t __n)[m
+[31m-     throw () __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wmemcpy (wchar_t *__restrict __s1,[m
+[31m-    const wchar_t *__restrict __s2, size_t __n) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wmemmove (wchar_t *__s1, const wchar_t *__s2, size_t __n)[m
+[31m-     throw ();[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wmemset (wchar_t *__s, wchar_t __c, size_t __n) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wmempcpy (wchar_t *__restrict __s1,[m
+[31m-     const wchar_t *__restrict __s2, size_t __n)[m
+[31m-     throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wint_t btowc (int __c) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wctob (wint_t __c) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int mbsinit (const mbstate_t *__ps) throw () __attribute__ ((__pure__));[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t mbrtowc (wchar_t *__restrict __pwc,[m
+[31m-         const char *__restrict __s, size_t __n,[m
+[31m-         mbstate_t *__restrict __p) throw ();[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcrtomb (char *__restrict __s, wchar_t __wc,[m
+[31m-         mbstate_t *__restrict __ps) throw ();[m
+[31m-[m
+[31m-[m
+[31m-extern size_t __mbrlen (const char *__restrict __s, size_t __n,[m
+[31m-   mbstate_t *__restrict __ps) throw ();[m
+[31m-extern size_t mbrlen (const char *__restrict __s, size_t __n,[m
+[31m-        mbstate_t *__restrict __ps) throw ();[m
+[31m-# 337 "/usr/include/wchar.h" 3 4[m
+[31m-extern size_t mbsrtowcs (wchar_t *__restrict __dst,[m
+[31m-    const char **__restrict __src, size_t __len,[m
+[31m-    mbstate_t *__restrict __ps) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcsrtombs (char *__restrict __dst,[m
+[31m-    const wchar_t **__restrict __src, size_t __len,[m
+[31m-    mbstate_t *__restrict __ps) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t mbsnrtowcs (wchar_t *__restrict __dst,[m
+[31m-     const char **__restrict __src, size_t __nmc,[m
+[31m-     size_t __len, mbstate_t *__restrict __ps) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcsnrtombs (char *__restrict __dst,[m
+[31m-     const wchar_t **__restrict __src,[m
+[31m-     size_t __nwc, size_t __len,[m
+[31m-     mbstate_t *__restrict __ps) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wcwidth (wchar_t __c) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wcswidth (const wchar_t *__s, size_t __n) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern double wcstod (const wchar_t *__restrict __nptr,[m
+[31m-        wchar_t **__restrict __endptr) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern float wcstof (const wchar_t *__restrict __nptr,[m
+[31m-       wchar_t **__restrict __endptr) throw ();[m
+[31m-extern long double wcstold (const wchar_t *__restrict __nptr,[m
+[31m-       wchar_t **__restrict __endptr) throw ();[m
+[31m-# 396 "/usr/include/wchar.h" 3 4[m
+[31m-extern _Float32 wcstof32 (const wchar_t *__restrict __nptr,[m
+[31m-     wchar_t **__restrict __endptr) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern _Float64 wcstof64 (const wchar_t *__restrict __nptr,[m
+[31m-     wchar_t **__restrict __endptr) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern _Float128 wcstof128 (const wchar_t *__restrict __nptr,[m
+[31m-       wchar_t **__restrict __endptr) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern _Float32x wcstof32x (const wchar_t *__restrict __nptr,[m
+[31m-       wchar_t **__restrict __endptr) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern _Float64x wcstof64x (const wchar_t *__restrict __nptr,[m
+[31m-       wchar_t **__restrict __endptr) throw ();[m
+[31m-# 428 "/usr/include/wchar.h" 3 4[m
+[31m-extern long int wcstol (const wchar_t *__restrict __nptr,[m
+[31m-   wchar_t **__restrict __endptr, int __base) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern unsigned long int wcstoul (const wchar_t *__restrict __nptr,[m
+[31m-      wchar_t **__restrict __endptr, int __base)[m
+[31m-     throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-__extension__[m
+[31m-extern long long int wcstoll (const wchar_t *__restrict __nptr,[m
+[31m-         wchar_t **__restrict __endptr, int __base)[m
+[31m-     throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-__extension__[m
+[31m-extern unsigned long long int wcstoull (const wchar_t *__restrict __nptr,[m
+[31m-     wchar_t **__restrict __endptr,[m
+[31m-     int __base) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-__extension__[m
+[31m-extern long long int wcstoq (const wchar_t *__restrict __nptr,[m
+[31m-        wchar_t **__restrict __endptr, int __base)[m
+[31m-     throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-__extension__[m
+[31m-extern unsigned long long int wcstouq (const wchar_t *__restrict __nptr,[m
+[31m-           wchar_t **__restrict __endptr,[m
+[31m-           int __base) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern long int wcstol_l (const wchar_t *__restrict __nptr,[m
+[31m-     wchar_t **__restrict __endptr, int __base,[m
+[31m-     locale_t __loc) throw ();[m
+[31m-[m
+[31m-extern unsigned long int wcstoul_l (const wchar_t *__restrict __nptr,[m
+[31m-        wchar_t **__restrict __endptr,[m
+[31m-        int __base, locale_t __loc) throw ();[m
+[31m-[m
+[31m-__extension__[m
+[31m-extern long long int wcstoll_l (const wchar_t *__restrict __nptr,[m
+[31m-    wchar_t **__restrict __endptr,[m
+[31m-    int __base, locale_t __loc) throw ();[m
+[31m-[m
+[31m-__extension__[m
+[31m-extern unsigned long long int wcstoull_l (const wchar_t *__restrict __nptr,[m
+[31m-       wchar_t **__restrict __endptr,[m
+[31m-       int __base, locale_t __loc)[m
+[31m-     throw ();[m
+[31m-[m
+[31m-extern double wcstod_l (const wchar_t *__restrict __nptr,[m
+[31m-   wchar_t **__restrict __endptr, locale_t __loc)[m
+[31m-     throw ();[m
+[31m-[m
+[31m-extern float wcstof_l (const wchar_t *__restrict __nptr,[m
+[31m-         wchar_t **__restrict __endptr, locale_t __loc)[m
+[31m-     throw ();[m
+[31m-[m
+[31m-extern long double wcstold_l (const wchar_t *__restrict __nptr,[m
+[31m-         wchar_t **__restrict __endptr,[m
+[31m-         locale_t __loc) throw ();[m
+[31m-# 511 "/usr/include/wchar.h" 3 4[m
+[31m-extern _Float32 wcstof32_l (const wchar_t *__restrict __nptr,[m
+[31m-       wchar_t **__restrict __endptr,[m
+[31m-       locale_t __loc) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern _Float64 wcstof64_l (const wchar_t *__restrict __nptr,[m
+[31m-       wchar_t **__restrict __endptr,[m
+[31m-       locale_t __loc) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern _Float128 wcstof128_l (const wchar_t *__restrict __nptr,[m
+[31m-         wchar_t **__restrict __endptr,[m
+[31m-         locale_t __loc) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern _Float32x wcstof32x_l (const wchar_t *__restrict __nptr,[m
+[31m-         wchar_t **__restrict __endptr,[m
+[31m-         locale_t __loc) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern _Float64x wcstof64x_l (const wchar_t *__restrict __nptr,[m
+[31m-         wchar_t **__restrict __endptr,[m
+[31m-         locale_t __loc) throw ();[m
+[31m-# 551 "/usr/include/wchar.h" 3 4[m
+[31m-extern wchar_t *wcpcpy (wchar_t *__restrict __dest,[m
+[31m-   const wchar_t *__restrict __src) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *wcpncpy (wchar_t *__restrict __dest,[m
+[31m-    const wchar_t *__restrict __src, size_t __n)[m
+[31m-     throw ();[m
+[31m-# 567 "/usr/include/wchar.h" 3 4[m
+[31m-extern __FILE *open_wmemstream (wchar_t **__bufloc, size_t *__sizeloc) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int fwide (__FILE *__fp, int __mode) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int fwprintf (__FILE *__restrict __stream,[m
+[31m-       const wchar_t *__restrict __format, ...)[m
+[31m-                                                           ;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wprintf (const wchar_t *__restrict __format, ...)[m
+[31m-                                                           ;[m
+[31m-[m
+[31m-extern int swprintf (wchar_t *__restrict __s, size_t __n,[m
+[31m-       const wchar_t *__restrict __format, ...)[m
+[31m-     throw () ;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int vfwprintf (__FILE *__restrict __s,[m
+[31m-        const wchar_t *__restrict __format,[m
+[31m-        __gnuc_va_list __arg)[m
+[31m-                                                           ;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int vwprintf (const wchar_t *__restrict __format,[m
+[31m-       __gnuc_va_list __arg)[m
+[31m-                                                           ;[m
+[31m-[m
+[31m-[m
+[31m-extern int vswprintf (wchar_t *__restrict __s, size_t __n,[m
+[31m-        const wchar_t *__restrict __format,[m
+[31m-        __gnuc_va_list __arg)[m
+[31m-     throw () ;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int fwscanf (__FILE *__restrict __stream,[m
+[31m-      const wchar_t *__restrict __format, ...)[m
+[31m-                                                          ;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int wscanf (const wchar_t *__restrict __format, ...)[m
+[31m-                                                          ;[m
+[31m-[m
+[31m-extern int swscanf (const wchar_t *__restrict __s,[m
+[31m-      const wchar_t *__restrict __format, ...)[m
+[31m-     throw () ;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int fwscanf (__FILE *__restrict __stream, const wchar_t *__restrict __format, ...) __asm__ ("" "__isoc99_fwscanf")[m
+[31m-[m
+[31m-[m
+[31m-                                                          ;[m
+[31m-extern int wscanf (const wchar_t *__restrict __format, ...) __asm__ ("" "__isoc99_wscanf")[m
+[31m-[m
+[31m-                                                          ;[m
+[31m-extern int swscanf (const wchar_t *__restrict __s, const wchar_t *__restrict __format, ...) throw () __asm__ ("" "__isoc99_swscanf")[m
+[31m-[m
+[31m-[m
+[31m-                                                          ;[m
+[31m-# 671 "/usr/include/wchar.h" 3 4[m
+[31m-extern int vfwscanf (__FILE *__restrict __s,[m
+[31m-       const wchar_t *__restrict __format,[m
+[31m-       __gnuc_va_list __arg)[m
+[31m-                                                          ;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int vwscanf (const wchar_t *__restrict __format,[m
+[31m-      __gnuc_va_list __arg)[m
+[31m-                                                          ;[m
+[31m-[m
+[31m-extern int vswscanf (const wchar_t *__restrict __s,[m
+[31m-       const wchar_t *__restrict __format,[m
+[31m-       __gnuc_va_list __arg)[m
+[31m-     throw () ;[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int vfwscanf (__FILE *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfwscanf")[m
+[31m-[m
+[31m-[m
+[31m-                                                          ;[m
+[31m-extern int vwscanf (const wchar_t *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vwscanf")[m
+[31m-[m
+[31m-                                                          ;[m
+[31m-extern int vswscanf (const wchar_t *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg) throw () __asm__ ("" "__isoc99_vswscanf")[m
+[31m-[m
+[31m-[m
+[31m-                                                          ;[m
+[31m-# 726 "/usr/include/wchar.h" 3 4[m
+[31m-extern wint_t fgetwc (__FILE *__stream);[m
+[31m-extern wint_t getwc (__FILE *__stream);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wint_t getwchar (void);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wint_t fputwc (wchar_t __wc, __FILE *__stream);[m
+[31m-extern wint_t putwc (wchar_t __wc, __FILE *__stream);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wint_t putwchar (wchar_t __wc);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wchar_t *fgetws (wchar_t *__restrict __ws, int __n,[m
+[31m-   __FILE *__restrict __stream);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int fputws (const wchar_t *__restrict __ws,[m
+[31m-     __FILE *__restrict __stream);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wint_t ungetwc (wint_t __wc, __FILE *__stream);[m
+[31m-# 781 "/usr/include/wchar.h" 3 4[m
+[31m-extern wint_t getwc_unlocked (__FILE *__stream);[m
+[31m-extern wint_t getwchar_unlocked (void);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wint_t fgetwc_unlocked (__FILE *__stream);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern wint_t fputwc_unlocked (wchar_t __wc, __FILE *__stream);[m
+[31m-# 807 "/usr/include/wchar.h" 3 4[m
+[31m-extern wint_t putwc_unlocked (wchar_t __wc, __FILE *__stream);[m
+[31m-extern wint_t putwchar_unlocked (wchar_t __wc);[m
+[31m-# 817 "/usr/include/wchar.h" 3 4[m
+[31m-extern wchar_t *fgetws_unlocked (wchar_t *__restrict __ws, int __n,[m
+[31m-     __FILE *__restrict __stream);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern int fputws_unlocked (const wchar_t *__restrict __ws,[m
+[31m-       __FILE *__restrict __stream);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcsftime (wchar_t *__restrict __s, size_t __maxsize,[m
+[31m-   const wchar_t *__restrict __format,[m
+[31m-   const struct tm *__restrict __tp) throw ();[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-extern size_t wcsftime_l (wchar_t *__restrict __s, size_t __maxsize,[m
+[31m-     const wchar_t *__restrict __format,[m
+[31m-     const struct tm *__restrict __tp,[m
+[31m-     locale_t __loc) throw ();[m
+[31m-# 856 "/usr/include/wchar.h" 3 4[m
+[31m-}[m
+[31m-# 45 "/usr/include/c++/9/cwchar" 2 3[m
+[31m-# 62 "/usr/include/c++/9/cwchar" 3[m
+[31m-namespace std[m
+[31m-{[m
+[31m-  using ::mbstate_t;[m
+[31m-}[m
+[31m-# 135 "/usr/include/c++/9/cwchar" 3[m
+[31m-extern "C++"[m
+[31m-{[m
+[31m-namespace std __attribute__ ((__visibility__ ("default")))[m
+[31m-{[m
+[31m-[m
+[31m-[m
+[31m-  using ::wint_t;[m
+[31m-[m
+[31m-  using ::btowc;[m
+[31m-  using ::fgetwc;[m
+[31m-  using ::fgetws;[m
+[31m-  using ::fputwc;[m
+[31m-  using ::fputws;[m
+[31m-  using ::fwide;[m
+[31m-  using ::fwprintf;[m
+[31m-  using ::fwscanf;[m
+[31m-  using ::getwc;[m
+[31m-  using ::getwchar;[m
+[31m-  using ::mbrlen;[m
+[31m-  using ::mbrtowc;[m
+[31m-  using ::mbsinit;[m
+[31m-  using ::mbsrtowcs;[m
+[31m-  using ::putwc;[m
+[31m-  using ::putwchar;[m
+[31m-[m
+[31m-  using ::swprintf;[m
+[31m-[m
+[31m-  using ::swscanf;[m
+[31m-  using ::ungetwc;[m
+[31m-  using ::vfwprintf;[m
+[31m-[m
+[31m-  using ::vfwscanf;[m
+[31m-[m
+[31m-[m
+[31m-  using ::vswprintf;[m
+[31m-[m
+[31m-[m
+[31m-  using ::vswscanf;[m
+[31m-[m
+[31m-  using ::vwprintf;[m
+[31m-[m
+[31m-  using ::vwscanf;[m
+[31m-[m
+[31m-  using ::wcrtomb;[m
+[31m-  using ::wcscat;[m
+[31m-  using ::wcscmp;[m
+[31m-  using ::wcscoll;[m
+[31m-  using ::wcscpy;[m
+[31m-  using ::wcscspn;[m
+[31m-  using ::wcsftime;[m
+[31m-  using ::wcslen;[m
+[31m-  using ::wcsncat;[m
+[31m-  using ::wcsncmp;[m
+[31m-  using ::wcsncpy;[m
+[31m-  using ::wcsrtombs;[m
+[31m-  using ::wcsspn;[m
+[31m-  using ::wcstod;[m
+[31m-[m
+[31m-  using ::wcstof;[m
+[31m-[m
+[31m-  using ::wcstok;[m
+[31m-  using ::wcstol;[m
+[31m-  using ::wcstoul;[m
+[31m-  using ::wcsxfrm;[m
+[31m-  using ::wctob;[m
+[31m-  using ::wmemcmp;[m
+[31m-  using
